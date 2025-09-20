@@ -1,9 +1,9 @@
 
 # Algorithms HW #1-2: implementing Integer Multiplication
 
-Author: Yeonjun Kim (2024-13755 / Dept. of Computer Science and Enginnering)
-Date: 2025-09-20
-This code is tested in Ubuntu 24 environment.
+- Author: Yeonjun Kim (2024-13755 / Dept. of Computer Science and Enginnering)
+- Date: 2025-09-20
+- This code is tested in Ubuntu 24 environment.
 
 ## Features
 - Grade-school / Karatsuba / Toom-Cook (Toom-3) multiplication.
