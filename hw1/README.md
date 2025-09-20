@@ -24,6 +24,7 @@ This code is tested in Ubuntu 24 environment.
 	- `./test.py`: tests the program and plots runtime graphs
 	- `./gen_tcases.py`:  generates random testcases for different N's
 - `./src/`: C++ source code 
+    - `run_algo.cpp`: where main() of C++ program is located. handles file I/O, calls one of the multiplication function, measures the running time
 	- `bigint.cpp, bigint.hpp`: my implementation for big integer class
 	- `mult_gradeschool.cpp, mult_karatsuba.cpp, mult_toomcook.cpp`: integer multiplication functions.
 -  `./build/`: C++ build
