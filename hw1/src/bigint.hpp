@@ -9,6 +9,7 @@
 #include <iostream> // for debugging
 
 #define MAX_DIGITS 1024
+#define BASECASE_N 70
 
 // Big (unsigned) integer class that stores large integers as strings
 class Bigint {

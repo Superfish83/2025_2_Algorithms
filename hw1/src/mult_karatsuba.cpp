@@ -11,7 +11,7 @@ Bigint mult_karatsuba(Bigint a, Bigint b) {
     int N = a.getN();
 
     // Base case for recursion
-    if (N <= 50) {
+    if (N <= BASECASE_N) {
         /*
         int prod = a.getDigit(0) * b.getDigit(0);
 

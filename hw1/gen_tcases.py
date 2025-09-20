@@ -17,7 +17,7 @@ def gen_tcases(indir, outdir, nlist, count):
         for i in range(count):
             a, b, c = gen_tcase(n)
 
-            with open(f"{indir}/N{n}_{i}.txt", "x") as f:
+            with open(f"{indir}/input_N{n}_{i}.txt", "x") as f:
                 f.write(f"{a}\n{b}")
-            with open(f"{outdir}/N{n}_{i}.txt", "x") as f:
+            with open(f"{outdir}/output_N{n}_{i}.txt", "x") as f:
                 f.write(f"{c}")

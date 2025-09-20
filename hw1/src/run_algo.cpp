@@ -7,7 +7,7 @@
 using namespace std::chrono;
 using namespace std;
 
-#define TEST_TIMES 50
+#define TEST_TIMES 100
 
 // read input and save to Bigint variables
 void read_input(const char *inpath, Bigint &a, Bigint &b){

@@ -14,7 +14,7 @@ Bigint mult_toomcook(Bigint a, Bigint b) {
 
 
     // Base case for recursion
-    if (N <= 50) {
+    if (N <= BASECASE_N) {
         Bigint result = mult_gradeschool(a, b);
         if(a.getSign() != b.getSign()){
             result.setSign(1);
