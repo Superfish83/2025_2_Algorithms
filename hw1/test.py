@@ -67,7 +67,8 @@ def plot_runtime(runtime_data):
 if __name__ == "__main__":
     # (1) Prepare directory
     print("Preparing directories...")
-    rmdir_recursively(TEST_DIR)
+    if os.path.exists(TEST_DIR):
+        rmdir_recursively(TEST_DIR)
     os.mkdir(TEST_DIR)
     os.mkdir(IN_DIR)     # test case input files
     os.mkdir(EXP_DIR)    # test case (desired) output files

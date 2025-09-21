@@ -3,7 +3,7 @@
 
 - Author: Yeonjun Kim (2024-13755 / Dept. of Computer Science and Enginnering)
 - Date: 2025-09-20
-- This code is tested in Ubuntu 24 environment.
+- This code is developed and tested in Linux (Ubuntu 24) environment.
 
 ## Features
 - Grade-school / Karatsuba / Toom-Cook (Toom-3) multiplication.
@@ -11,11 +11,16 @@
 
 ## How to build and run
 **In this assignment, I used C++ to implement the integer class and the multiplication algorithms, and used Python for testing and plotting.**
-- The C++ program is located in `./build/` directory. You can compile the source code by running `./build.sh` (in Linux environment).
-- You can run automatic testing by running `python3 ./test.py`. This program does three jobs:
+- The C++ program is located in `./build/` directory. You can compile the source code by running `$ ./build.sh` (in Linux environment).
+- You can run automatic testing by running `$ python3 ./test.py`. This program does three jobs:
 	- Automatically generates random testcases for different N's.
 	- Calls the C++ program, records the output and checks correctness.
 	- Plots the runtime versus N for each of the 3 algorithms.
+- You can also manually manually test for specific testcases by:
+	1. Adding your input file inside the test directory
+	2. Invoking the C++ program by:
+	- `$ ./build/run_algo [gradeschool/karatsuba/toomcook] [INPUT FILE PATH] [OUTPUT FILE PATH] [TIME MEASUREMENT FILE PATH]`
+	- (example): `$ ./build/run_algo karatsuba tests/input.txt tests/output.txt tests/time.txt`
 
 ## Directory structure
 - `./`: Python code and script
