@@ -34,8 +34,8 @@ def plot_runtime(ALGO_NAME_LIST, TCASE_N_LIST, TCASE_CLASSES):
         
         plt.legend()
 
-        plt.xlabel("Number of Digits (N) (log_10 scale)")
+        plt.xlabel("Number of Elements (N) (log_10 scale)")
         plt.ylabel("runtime [ms] (log_10 scale)")
-        plt.title(f"Sort Comparison ({tclass} case)")
+        plt.title(f"Sort Time Comparison ({tclass} case)")
         
         plt.savefig(f"{FIGS_DIR}/{tclass}.png")
