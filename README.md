@@ -27,5 +27,5 @@ Yeonjun Kim (SNU CSE)
 - `hw5/` -> **Minimum spanning tree**
     - Kruskal algorithm
     - Prim algorithm
-    - MinHeap(binary heap), FiboHeap(Fibonacci heap), Union-find data structure
+    - Binary heap, Fibonacci heap, Union-find data structure
 - `hw6/` -> ??
