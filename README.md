@@ -24,5 +24,8 @@ Yeonjun Kim (SNU CSE)
 - `hw4/` -> **shortest path**
     - Dijkstra algorithm
     - Bellman-Ford algorithm
-- `hw5/` -> ??
+- `hw5/` -> **Minimum spanning tree**
+    - Kruskal algorithm
+    - Prim algorithm
+    - MinHeap(binary heap), FiboHeap(Fibonacci heap), Union-find data structure
 - `hw6/` -> ??
